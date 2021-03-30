@@ -3,6 +3,20 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.*;
 
+/*
+Coding Exercise - Problem Description
+Given a set of words, find the count of number of strings which are similar but may have had
+the letters jumbled
+Example:
+Consider the following set of words as input:
+eat, ate, tea, java, avja, apple
+The expected output would be:
+eat, ate, tea – 3 (ate, tea are jumbled version of eat)
+java, avja – 2
+apple - 1
+
+*/
+
 public class Main {
 
     public static void main(String args[]) throws Exception {
